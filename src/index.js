@@ -19,3 +19,5 @@ const post = {
 };
 
 root.render(<App post={post} />);
+
+// If state changes, re-rendering occurs. Either component itself or parent
